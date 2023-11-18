@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.wstuplenna{
+    margin-bottom: 40px;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 2px solid black;
+    gap: 10px;
+    padding: 15px 20px;
+}
+form label{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.vik label{
+    margin: 0;
+}
